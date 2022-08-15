@@ -6,8 +6,9 @@ public class CicloFor {
         int contador;
 
         System.out.println("digite la cantidad de terminos: ");
+        contador = entrada.nextInt();
 
-        for (int i=1; i<=contador; i++){
+        for (int i=1; i<= contador; i++){
             System.out.println(i);
 
         }
